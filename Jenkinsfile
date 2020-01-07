@@ -4,9 +4,9 @@ pipeline {
   }
   environment {
     ORG = 'kiss96803'
-    APP_NAME = 'fox-dotnetcore-adminapi'
+    APP_NAME = 'FoxCore'
     CHARTMUSEUM_CREDS = credentials('jenkins-x-chartmuseum')
-    DOCKER_REGISTRY_ORG = 'kiss96803'
+    DOCKER_REGISTRY_ORG = 'HuikeSoft'
   }
   stages {
     stage('CI Build and push snapshot') {
