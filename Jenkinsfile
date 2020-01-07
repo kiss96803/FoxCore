@@ -52,7 +52,7 @@ pipeline {
       }
       steps {
         container('jx-base') {
-          dir('./charts/fox-dotnetcore-adminapi') {
+          dir('./charts/foxcore') {
             sh "jx step changelog --version v\$(cat ../../VERSION)"
 
             // release the helm chart
