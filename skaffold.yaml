@@ -2,7 +2,7 @@ apiVersion: skaffold/v1beta11
 kind: Config
 build:
   artifacts:
-  - image: kiss96803/fox-dotnetcore-adminapi
+  - image: huikesoft/foxcore
     context: .
     docker:
       network: host
@@ -22,8 +22,8 @@ profiles:
   deploy:
     helm:
       releases:
-      - name: fox-dotnetcore-adminapi
-        chartPath: charts/fox-dotnetcore-adminapi
+      - name: foxcore
+        chartPath: charts/foxcore
         setValueTemplates:
           image.repository: '{{.DOCKER_REGISTRY}}/{{.IMAGE_NAME}}'
           image.tag: '{{.DIGEST_HEX}}'
