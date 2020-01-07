@@ -44,7 +44,7 @@ canary:
   host: acme.com
 
 service:
-  name: fox-dotnetcore-adminapi
+  name: foxcore
   type: ClusterIP
   externalPort: 5000
   internalPort: 80

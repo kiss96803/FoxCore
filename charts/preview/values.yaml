@@ -28,7 +28,7 @@ env:
 
 preview:
   image:
-    repository: /kiss96803/fox-dotnetcore-adminapi
+    repository: /huikesoft/foxcore
     tag: 
     pullPolicy: IfNotPresent
 
@@ -36,7 +36,7 @@ preview:
 knativeDeploy: false
 
 service:
-  name: fox-dotnetcore-adminapi
+  name: foxcore
   type: ClusterIP
   externalPort: 5000
   internalPort: 80
