@@ -3,7 +3,7 @@ pipeline {
     label "jenkins-jx-base"
   }
   environment {
-    ORG = 'kiss96803'
+    ORG = 'HuikeSoft'
     APP_NAME = 'FoxCore'
     CHARTMUSEUM_CREDS = credentials('jenkins-x-chartmuseum')
     DOCKER_REGISTRY_ORG = 'HuikeSoft'
