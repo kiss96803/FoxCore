@@ -2,7 +2,7 @@ apiVersion: skaffold/v1beta11
 kind: Config
 build:
   artifacts:
-  - image: huikesoft/foxcore
+  - image: kiss96803/foxcore
     context: .
     docker:
       network: host
