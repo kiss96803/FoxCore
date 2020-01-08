@@ -3,10 +3,10 @@ pipeline {
     label "jenkins-jx-base"
   }
   environment {
-    ORG = 'HuikeSoft'
+    ORG = 'kiss96803'
     APP_NAME = 'FoxCore'
     CHARTMUSEUM_CREDS = credentials('jenkins-x-chartmuseum')
-    DOCKER_REGISTRY_ORG = 'HuikeSoft'
+    DOCKER_REGISTRY_ORG = 'kiss96803'
   }
   stages {
     stage('CI Build and push snapshot') {
