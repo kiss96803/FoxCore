@@ -17,7 +17,7 @@ namespace FoxCore.Controllers
         [HttpGet]
         public string  Get()
         {
-            return "Hello Wolrd 2020";
+            return "Happy New Year 2020！";
         }
     }
 }
