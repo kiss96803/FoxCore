@@ -17,7 +17,7 @@ namespace FoxCore.Controllers
         [HttpGet]
         public string  Get()
         {
-            return "Happy New Year 2020 From Fox Team！";
+            return "Happy New Year 2020 From Fox Team！ShowCase";
         }
     }
 }
